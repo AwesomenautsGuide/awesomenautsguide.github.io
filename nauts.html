@@ -28,6 +28,21 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+
+    <script type="text/javascript">
+    (function($) {          
+        $(document).ready(function(){                    
+            $(window).scroll(function(){                          
+                if ($(this).scrollTop() > 825) {
+                    $('#nav2').fadeIn(500);
+                } else {
+                    $('#nav2').fadeOut(500);
+                }
+            });
+        });
+    })(jQuery);
+</script>
 
 </head>
 
@@ -91,7 +106,14 @@
             </div>
         </div>
     </header>
-
+    <nav id="nav2" class="navbar navbar-default">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="nauts.html">Nauts</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-default">
+            <li><a href="#Froggy"><img src="img/Icon_Froggy_G_001.jpg"></a></li>
+        </ul>
+    </nav>
     <!-- Main Content -->
     <table>
         <tr>

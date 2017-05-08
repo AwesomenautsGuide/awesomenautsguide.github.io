@@ -413,3 +413,14 @@ table {
     margin-right:auto;
     margin-top:50px;
 }
+.map {
+    margin-left:50px;
+    margin-right:50px;
+}
+#nav2 {
+    position:fixed;
+    top:0px;
+    width:100%;
+    z-index:9999;
+    display:none;
+}
